@@ -1,0 +1,196 @@
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
+*{
+    text-decoration: none;
+}
+p {
+    font-family: monospace;
+    font-size: 20px;
+}
+.row-grid {
+    display: grid;
+    row-gap: 70px;
+  }
+html,body {
+    height: 100%;
+    margin: 0;
+    background-color: #f4f4f4;
+    
+}
+.navbar{
+    display: grid;
+    background-color: #333333;
+    height: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: 100px;
+    
+}
+.navdiv{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between ;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo a {
+    font-size: 35px;
+    font-weight: 600;
+    color: white;
+    font-family: Lucida Handwriting;
+    display: flex;
+    align-items: center;
+}
+.logo-img {
+    
+    border-radius: 4px;
+    padding: 5px;
+    width: 90px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-right: 0px;
+    vertical-align: middle;
+}
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+    margin-right: 25px;
+}
+li a {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: large;
+    padding: 5px 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+li a:hover{
+    background-color: #575757;
+}
+h1 {
+    margin-top: -50px;
+    font-size: 70px;
+    font-weight: 600;
+    font-family: 'Niconne', cursive;
+    color: #e0d6e9;
+    text-shadow: 2px 2px 0px  #673d92,
+                 4px 4px 0px #ee4b2b,
+                 6px 6px 0px #00c2cb,
+                 8px 8px 0px #ff7f50,
+                 10px 10px 0px #553c9a;
+     transition: font-size 0.3s ease;
+  }
+h1:hover {
+    font-size: 80px;
+}
+.content {
+    text-align: center; 
+    padding: 100px;
+    margin-top: 100px;
+    background-color: white;
+    border-radius: 50px;
+    width: 1000px;
+    margin: auto;
+    row-gap: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.verse-display {
+    margin-top: 50px;
+    margin-bottom:0px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #333333;
+}
+h1 {
+    margin-top: n;
+}
+.button {
+  background: #fff;
+  backface-visibility: hidden;
+  border-radius: .360rem;
+  border-style: solid;
+  border-width: .110rem;
+  box-sizing: border-box;
+  color: #212121;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Circular,Helvetica,sans-serif;
+  font-size: 1.125rem;
+  font-weight: 600;
+  letter-spacing: -.01em;
+  line-height: 1.3;
+  padding: .875rem 1.125rem;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transform: translateZ(0) scale(1);
+  transition: transform .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button:not(:disabled):hover {
+  transform: scale(1.05);
+}
+
+.button:not(:disabled):hover:active {
+  transform: scale(1.05) translateY(.125rem);
+}
+
+.button:focus {
+  outline: 0 solid transparent;
+}
+
+.button:focus:before {
+  content: "";
+  left: calc(-1*.375rem);
+  pointer-events: none;
+  position: absolute;
+  top: calc(-1*.375rem);
+  transition: border-radius;
+  user-select: none;
+}
+
+.button:focus:not(:focus-visible) {
+  outline: 0 solid transparent;
+}
+
+.button:focus:not(:focus-visible):before {
+  border-width: 0;
+}
+
+.button:not(:disabled):active {
+  transform: translateY(.125rem);
+}
+
+.logoContact {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    margin-right: 20px;
+    font-family: monospace;
+}
+.Contact-img {
+    width: 30px; 
+    margin-right: 10px; 
+    border-radius: 50%; 
+    vertical-align: middle;
+}
+.contact-text {
+    font-size: 16px;
+    align-items: center;
+
+}
+.center-contact {
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
